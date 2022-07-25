@@ -1,0 +1,14 @@
+1. Way of combining
+concat has axis option default is 0 i.e. vertical stacking i.e. one below another
+pd.concat([df1,df2], axis = 0)
+df1
+df2
+pd.concat([df1,df2], axis = 1)
+df1 df2
+
+while merge only have horizontal stacking based on on column
+
+2. the keywords used for combining:
+Merge use how and concat use join
+Join has only two values outer and inner
+how has 4 values left, right, inner, outer 
