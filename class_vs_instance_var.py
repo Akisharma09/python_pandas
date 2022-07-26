@@ -16,6 +16,7 @@ print(c2.name, c2.milage, c1.wheel) # prints Audi 24 4
 # Now what if we want to change wheels can an object do that ? NO! wheel is a class variable and not an instance variable.
 # An instance variables are avriable that belongs to object in this case milage and name are instance variable.
 # So to change wheels to let say 5 we need to change it using class name
+# class method is same as static method
 
 car.wheel = 5
 
